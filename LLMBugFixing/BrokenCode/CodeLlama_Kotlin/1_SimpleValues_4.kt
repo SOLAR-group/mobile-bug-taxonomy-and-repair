@@ -1,0 +1,1 @@
+    var list = arrayOf("a", "b", "c")

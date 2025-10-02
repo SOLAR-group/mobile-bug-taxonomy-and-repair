@@ -1,0 +1,155 @@
+Kotlin Prompt 1 -------------------
+
+This is a Kotlin code snippet that contains one or more bugs. Fix the bug(s) in the code and return the fixed code snippet.
+$SOURCE_CODE
+
+Here are some examples of mutation operators that could be used to fix the bug(s) in the code: 
+
+•	Delete lines of code. 
+•	Copy lines of code and insert them in other parts of the code. 
+•	Change the type of a variable. 
+•	Insert library import statements.
+•	Insert skeleton code for Kotlin-specific concepts or keywords, such as the ‘when’ expression, ‘set’ statement, the ‘in’ or ‘!in’ keyword and the ‘?.let’ concept.
+
+Swift Prompt 1 --------------------
+
+This is a Swift code snippet that contains one or more bugs. Fix the bug(s) in the code and return the fixed code snippet.
+$SOURCE_CODE
+
+Here are some examples of mutation operators that could be used to fix the bug(s) in the code: 
+
+•	Delete lines of code. 
+•	Copy lines of code and insert them in other parts of the code. 
+•	Change the type of a variable. 
+•	Insert library import statements.
+•	Insert skeleton code for Swift-specific concepts or keywords, such as the ‘switch’ statement, the ‘willSet’ statement, the ‘!’ keyword for forced unwrapping, the ‘guard-let’ concept and the shortform ‘enum’ concept.
+
+Kotlin Prompt 2 -------------------
+
+This is a Kotlin code snippet that contains one or more bugs. Fix the bug(s) in the code and return the fixed code snippet.
+$SOURCE_CODE
+
+Here are some examples of mutation operators that could be used to fix the bug(s) in the code: 
+
+•	Delete lines of code. 
+    Buggy Code:
+    fun main() {
+        val x = 5
+        val x = 10
+    }
+    Fixed Code after Deleting a Line of Code:
+    fun main() {
+        val x = 5
+    }
+•	Copy lines of code and insert them in other parts of the code. 
+    Buggy Code:
+    fun main() {
+        val list = mutableListOf(1, 1, 1)
+        list.add(1)
+        println(list[4])
+    }
+    Fixed Code after Copying a Line of Code:
+    fun main() {
+        val list = mutableListOf(1, 1, 1)
+        list.add(1)
+        list.add(1)
+        println(list[4])
+    }
+•	Change the type of a variable. 
+    Buggy Code:
+    fun main() {
+        val x: Int = "Hello" 
+    }
+    Fixed Code after Changing the Type of a Variable:
+    fun main() {
+        val x: String = "Hello"
+    }
+•	Insert library import statements.
+    Buggy Code:
+    fun main() {
+        val file = File("data.txt")
+        val content = file.readText()
+    }
+    Fixed Code after Inserting a Library Import Statement:
+    import java.io.File
+    fun main() {
+        val file = File("data.txt")
+        val content = file.readText()
+    }
+•	Insert skeleton code for Kotlin-specific concepts or keywords, such as the ‘when’ expression, ‘set’ statement, the ‘in’ or ‘!in’ keyword and the ‘?.let’ concept.
+    Example of Inserting Skeleton Code for Kotlin-Specific Concepts:
+    fun main() {
+        val value = definedValue 
+        val result = when (value) {
+            condition1 -> result1
+            condition2 -> result2
+            // add more conditions if needed
+            else -> defaultResult 
+        }
+    }
+
+Swift Prompt 2 --------------------
+
+This is a Swift code snippet that contains one or more bugs. Fix the bug(s) in the code and return the fixed code snippet.
+$SOURCE_CODE
+
+Here are some examples of mutation operators that could be used to fix the bug(s) in the code: 
+
+•	Delete lines of code.   
+    Buggy Code:
+    func main() {
+        let x = 5
+        let x = 10
+    }
+    Fixed Code after Deleting a Line of Code:
+    func main() {
+        let x = 5
+    }
+•	Copy lines of code and insert them in other parts of the code. 
+    Buggy Code:
+    func main() {
+        var array = [1, 1, 1]
+        array.append(1)
+        print(array[1])
+    }
+    Fixed Code after Copying a Line of Code:
+    func main() {
+        var array = [1, 2, 3]
+        array.append(1)
+        array.append(1)
+        print(array[4])
+    }
+•	Change the type of a variable. 
+    Buggy Code:
+    func main() {
+        let x: Int = "Hello" 
+    }
+    Fixed Code after Changing the Type of a Variable:
+    func main() {
+        let x: String = "Hello"
+    }
+•	Insert library import statements.
+    Buggy Code:
+    func main() {
+        let file = File("data.txt")
+        let content = file.readText()
+    }
+    Fixed Code after Inserting a Library Import Statement:
+    import Foundation
+    func main() {
+        let file = File("data.txt")
+        let content = file.readText()
+    }
+•	Insert skeleton code for Swift-specific concepts or keywords, such as the ‘switch’ statement, the ‘willSet’ statement, the ‘!’ keyword for forced unwrapping, the ‘guard-let’ concept and the shortform ‘enum’ concept.
+    Example of Inserting Skeleton Code for Swift-Specific Concept of Switch Statement:
+        let value = definedValue
+        let result : ReturnType
+        switch value {
+            case condition1:
+                result = result1
+            case condition2:
+                result = result2
+            // add more cases if needed
+            default:       
+                result = defaultResult
+        }

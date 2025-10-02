@@ -1,0 +1,4 @@
+val label = "The width is "
+val width = 94
+val widthLabel = label + String(width)
+val widthLabel2 = label + String(width)

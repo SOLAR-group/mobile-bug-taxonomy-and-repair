@@ -1,0 +1,1 @@
+val individualScores = listOf(75, 43, 103, 87, 12)
