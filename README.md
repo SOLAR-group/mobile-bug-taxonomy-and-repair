@@ -1,3 +1,7 @@
+## From Kotlin to Swift and Back: Toward Fully Automated Cross-Language Code Transpilation
+
+This repository constitues the artefact of the A-Mobile 2025 publication titled: "From Kotlin to Swift and Back: Toward Fully Automated Cross-Language Code Transpilation" by Sachi Lad, Carol Hanna, and Justyna Petke.
+
 ## Organisation of Code
 
 ### InputTestCode
